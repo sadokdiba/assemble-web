@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fb923c"/>
+      <stop offset="100%" style="stop-color:#f97316"/>
+    </linearGradient>
+  </defs>
+  <rect width="32" height="32" rx="8" fill="url(#grad)"/>
+  <g fill="white">
+    <!-- Chat bubble with lock -->
+    <path d="M8 10a2 2 0 012-2h12a2 2 0 012 2v8a2 2 0 01-2 2h-8l-4 4v-4H10a2 2 0 01-2-2v-8z" fill-opacity="0.9"/>
+    <!-- Lock icon inside -->
+    <rect x="13" y="13" width="6" height="5" rx="1" fill="#f97316"/>
+    <path d="M14 13v-1.5a2 2 0 114 0V13" stroke="#f97316" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+  </g>
+</svg>
