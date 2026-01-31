@@ -14,6 +14,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -23,7 +25,14 @@ jobs:
       - name: Install pnpm
         uses: pnpm/action-setup@v4
         with:
-          version: 8
+          version: 9
+
+      - name: Verify files
+        run: |
+          echo "Checking if pnpm-lock.yaml exists..."
+          ls -la pnpm-lock.yaml || echo "pnpm-lock.yaml not found!"
+          echo "Files in root:"
+          ls -la
 
       - name: Get pnpm store directory
         shell: bash
