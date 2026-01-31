@@ -33,7 +33,7 @@ export default function Footer() {
               <li><a href="#features" className="text-surface-400 hover:text-primary-400 transition-colors">Features</a></li>
               <li><a href="#privacy" className="text-surface-400 hover:text-primary-400 transition-colors">Security</a></li>
               <li><a href="#download" className="text-surface-400 hover:text-primary-400 transition-colors">Download</a></li>
-              <li><a href="https://github.com/assemble" target="_blank" rel="noopener noreferrer" className="text-surface-400 hover:text-primary-400 transition-colors">Roadmap</a></li>
+              <li><a href="https://github.com/sadokdiba/assemble-web" target="_blank" rel="noopener noreferrer" className="text-surface-400 hover:text-primary-400 transition-colors">Roadmap</a></li>
             </ul>
           </div>
 
@@ -43,7 +43,7 @@ export default function Footer() {
               <li><a href="#community" className="text-surface-400 hover:text-primary-400 transition-colors">Community</a></li>
               <li><Link to="/privacy" className="text-surface-400 hover:text-primary-400 transition-colors">Privacy Policy</Link></li>
               <li><Link to="/terms" className="text-surface-400 hover:text-primary-400 transition-colors">Terms of Service</Link></li>
-              <li><a href="https://github.com/assemble" target="_blank" rel="noopener noreferrer" className="text-surface-400 hover:text-primary-400 transition-colors">Contact</a></li>
+              <li><a href="https://github.com/sadokdiba/assemble-web" target="_blank" rel="noopener noreferrer" className="text-surface-400 hover:text-primary-400 transition-colors">Contact</a></li>
             </ul>
           </div>
         </div>
@@ -53,7 +53,7 @@ export default function Footer() {
             © {new Date().getFullYear()} Assemble. Built with 🔒 for privacy.
           </p>
           <a 
-            href="https://github.com/assemble" 
+            href="https://github.com/sadokdiba/assemble-web" 
             target="_blank" 
             rel="noopener noreferrer" 
             className="flex items-center gap-2 text-surface-500 hover:text-primary-400 transition-colors"

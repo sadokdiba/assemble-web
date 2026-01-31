@@ -71,7 +71,7 @@ export default function CTA() {
           </p>
 
           <a 
-            href="https://github.com/assemble" 
+            href="https://github.com/sadokdiba/assemble-web" 
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center justify-center gap-3 bg-surface-800 hover:bg-surface-700 text-white px-8 py-4 rounded-xl font-semibold transition-all border border-surface-700 hover:border-surface-600"
