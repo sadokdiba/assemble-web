@@ -5,8 +5,8 @@ const features = [
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
       </svg>
     ),
-    title: 'True End-to-End Encryption',
-    description: 'Every message, call, and file is encrypted on your device. Not even we can read them.',
+    title: 'Encrypted at Rest',
+    description: 'Messages are encrypted with AES-256. We can assist with safety investigations when legally required.',
     gradient: 'from-primary-500 to-primary-600',
   },
   {
@@ -15,8 +15,8 @@ const features = [
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192l-3.536 3.536M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-5 0a4 4 0 11-8 0 4 4 0 018 0z" />
       </svg>
     ),
-    title: 'No Data Collection',
-    description: 'We don\'t track you, profile you, or sell your data. Your conversations are not our product.',
+    title: 'Privacy-Preserving Discovery',
+    description: 'Your contacts never leave your device. We use anonymous hashes to find friends – Signal-style privacy.',
     gradient: 'from-primary-400 to-primary-500',
   },
   {

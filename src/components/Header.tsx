@@ -47,7 +47,7 @@ export default function Header() {
               href="#download" 
               className="btn-glow bg-gradient-to-r from-primary-500 to-primary-600 text-white px-5 py-2.5 rounded-xl font-semibold hover:from-primary-400 hover:to-primary-500 transition-all shadow-lg shadow-primary-500/25"
             >
-              Download
+              Join Waitlist
             </a>
           </div>
 
@@ -77,7 +77,7 @@ export default function Header() {
               href="#download" 
               className="block bg-gradient-to-r from-primary-500 to-primary-600 text-white px-5 py-3 rounded-xl font-semibold text-center"
             >
-              Download
+              Join Waitlist
             </a>
           </div>
         )}

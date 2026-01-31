@@ -10,7 +10,7 @@ export default function Hero() {
           {/* Privacy badge */}
           <div className="inline-flex items-center gap-2 glass-light px-4 py-2 rounded-full mb-8">
             <div className="w-2 h-2 bg-primary-400 rounded-full animate-pulse" />
-            <span className="text-sm text-surface-300 font-medium">End-to-End Encrypted</span>
+            <span className="text-sm text-surface-300 font-medium">Encrypted & Private</span>
             <svg className="w-4 h-4 text-primary-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
             </svg>
@@ -32,10 +32,10 @@ export default function Hero() {
               href="#download" 
               className="btn-glow group bg-gradient-to-r from-primary-500 to-primary-600 text-white px-8 py-4 rounded-2xl text-lg font-semibold hover:from-primary-400 hover:to-primary-500 transition-all shadow-xl shadow-primary-500/30 flex items-center justify-center gap-3"
             >
-              <svg className="w-6 h-6 group-hover:animate-pulse" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
+              <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9" />
               </svg>
-              Download Free
+              Join Waitlist
             </a>
             <a 
               href="#privacy" 
@@ -60,7 +60,7 @@ export default function Hero() {
               <svg className="w-5 h-5 text-primary-400" fill="currentColor" viewBox="0 0 24 24">
                 <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
               </svg>
-              <span>No Data Collection</span>
+              <span>Privacy First</span>
             </div>
             <div className="flex items-center gap-2">
               <svg className="w-5 h-5 text-primary-400" fill="currentColor" viewBox="0 0 24 24">
@@ -115,7 +115,7 @@ export default function Hero() {
                   <div className="absolute -inset-4 border-2 border-primary-500/20 rounded-[2rem] border-dashed animate-[spin_20s_linear_infinite]" />
                 </div>
                 <p className="mt-6 text-surface-400 text-sm">
-                  Your messages are encrypted before they leave your device
+                  Your messages are encrypted at rest with AES-256
                 </p>
               </div>
             </div>

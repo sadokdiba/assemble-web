@@ -39,7 +39,7 @@ export default function Terms() {
             <h2 className="text-2xl font-semibold mb-4 text-white">4. Contact Us</h2>
             <p className="text-surface-400 mb-4">
               If you have any questions about these Terms, please contact us at{' '}
-              <a href="mailto:legal@assemble.chat" className="text-primary-400 hover:text-primary-300">legal@assemble.chat</a>
+              <a href="mailto:legal@assembleapp.org" className="text-primary-400 hover:text-primary-300">legal@assembleapp.org</a>
             </p>
           </section>
         </div>

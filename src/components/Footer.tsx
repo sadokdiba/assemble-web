@@ -19,7 +19,10 @@ export default function Footer() {
               <svg className="w-4 h-4 text-primary-400" fill="currentColor" viewBox="0 0 24 24">
                 <path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4z"/>
               </svg>
-              <span>End-to-end encrypted by default</span>
+              <span>Encrypted by default</span>
+            </div>
+            <div className="mt-4 text-xs text-surface-600">
+              Currently available in English. French & Spanish coming soon.
             </div>
           </div>
 

@@ -39,7 +39,7 @@ export default function Privacy() {
             <h2 className="text-2xl font-semibold mb-4 text-white">4. Contact Us</h2>
             <p className="text-surface-400 mb-4">
               If you have any questions about this Privacy Policy, please contact us at{' '}
-              <a href="mailto:privacy@assemble.chat" className="text-primary-400 hover:text-primary-300">privacy@assemble.chat</a>
+              <a href="mailto:privacy@assembleapp.org" className="text-primary-400 hover:text-primary-300">privacy@assembleapp.org</a>
             </p>
           </section>
         </div>
