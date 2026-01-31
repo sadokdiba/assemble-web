@@ -104,21 +104,20 @@ export default function CTA() {
           </p>
 
           <div className="glass rounded-3xl p-12 max-w-2xl mx-auto mb-8">
-            <h3 className="text-2xl font-bold text-white mb-6">Join the Waitlist</h3>
+            <h3 className="text-2xl font-bold text-white mb-6">Get Early Access</h3>
             <p className="text-surface-400 mb-8">
-              Be among the first to experience truly private messaging. Get notified when we launch.
+              Be among the first to experience truly private messaging. Email us to join the waitlist.
             </p>
             
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <input 
-                type="email" 
-                placeholder="Enter your email" 
-                className="px-6 py-4 bg-surface-800 border border-surface-700 rounded-xl text-white placeholder-surface-500 focus:border-primary-500 focus:outline-none focus:ring-2 focus:ring-primary-500/20 transition-all"
-              />
-              <button className="btn-glow bg-gradient-to-r from-primary-500 to-primary-600 text-white px-8 py-4 rounded-xl font-semibold hover:from-primary-400 hover:to-primary-500 transition-all shadow-xl shadow-primary-500/30 whitespace-nowrap">
-                Notify Me
-              </button>
-            </div>
+            <a 
+              href="mailto:hello@assembleapp.org?subject=Waitlist%20Request&body=Hi%2C%20I%27d%20like%20to%20join%20the%20Assemble%20waitlist.%0A%0AMy%20name%3A%20%0ADevice%3A%20iOS%20%2F%20Android"
+              className="inline-flex items-center justify-center gap-3 btn-glow bg-gradient-to-r from-primary-500 to-primary-600 text-white px-8 py-4 rounded-xl font-semibold hover:from-primary-400 hover:to-primary-500 transition-all shadow-xl shadow-primary-500/30"
+            >
+              <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+              </svg>
+              Join Waitlist
+            </a>
             
             <p className="text-surface-500 text-xs mt-6">
               We respect your privacy. No spam, just launch updates.
